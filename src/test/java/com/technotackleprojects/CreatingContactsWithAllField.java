@@ -140,6 +140,12 @@ public class CreatingContactsWithAllField {
 		    Assert.assertEquals(actualSuccessMessage, "CompanyContacts created successfully.");
 		}
 		
+		@Test(priority = 4)
+		public void script_Method1() {
+
+			System.out.println("Method");
+		}
+		
 		@AfterMethod
 		public void TakesScreensho() throws IOException {
 			TakesScreenshot screenShot = (TakesScreenshot)driver;
